@@ -1,0 +1,86 @@
+.footer{
+    min-height: 130px;
+    background-color: #25333c;
+    padding: 38px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__first{
+        display: flex;
+        align-items: center;
+    }
+    &__icon-text{
+        margin-left: 43px;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    &__second{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &__btn{
+        width: 160px;
+        height: 45px;
+    }
+    &__call{
+        margin-right: 18px;
+    }
+    &__subtitle{
+        text-align: right;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__tell{
+        font-size: 19px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    &__divider{
+        margin-top: 26px;
+        width: 100%;
+        height: 1px;
+        opacity: 0.3;
+        background: #ffffff;
+    }
+    &__item{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__icon{
+        display: flex;
+        align-items: center;
+    }
+    &__email{
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+        text-decoration: none;
+        opacity: .6;
+    }
+    &__polity{
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: #ec644b;
+    }
+    &__icon-sub{
+        opacity: 0.6;
+        margin-right: 10px;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}

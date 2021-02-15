@@ -1,0 +1,61 @@
+.advantage{
+    padding: 80px 0;
+    &__title{
+        width: 380px;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #393939;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__wrapper{
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: repeat(2,minmax(570px,auto));
+        grid-template-rows: repeat(2,minmax(355px,auto));
+        grid-auto-rows: minmax(355px,auto);
+    }
+    &__item{
+
+        display: flex;
+        width: 570px;
+        height: 355px;
+        background: rgba(0,0,0, .4);
+        background: url('../img/4-screen/watch.jpg') center (center/cover) no-repeat;
+        align-items: center;
+        &_0{
+            background: url('../img/4-screen/intellect.jpg') center (center/cover) no-repeat;
+        }
+        &_1{
+            background: url('../img/4-screen/globus.jpg')  center (center/cover) no-repeat;
+        }
+        &_2{
+            background: url('../img/4-screen/phone.jpg')  center (center/cover) no-repeat;
+        }
+        &_3{
+            background: url('../img/4-screen/bis.jpg')  center (center/cover) no-repeat;
+            
+        }
+        &_4{
+            background: url('../img/4-screen/cards.jpg')  center (center/cover) no-repeat;
+        }
+    }
+    &__shadow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 570px;
+        height: 156px;
+        background-color: #000000;
+        background: rgba(0,0,0, .43);        
+    }
+    &__descr{
+        width: 335px;
+        font-size: 23px;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+    }
+}

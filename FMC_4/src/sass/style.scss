@@ -1,0 +1,27 @@
+@import 'base/title';
+@import 'base/btn';
+@import 'base/slick';
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/prengi';
+@import 'blocks/slider';
+@import 'blocks/advantage';
+@import 'blocks/variants';
+@import 'blocks/easy';
+@import 'blocks/footer';
+
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+body{
+    margin: 0;
+}
+@import 'base/media';

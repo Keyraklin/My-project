@@ -1,0 +1,117 @@
+.skills{
+    padding-top: 120px;
+    &__subtitle{
+        text-align: center;
+    }
+    &__wrapper{
+        display: grid;
+        margin-top: 60px;
+        grid-template-columns: repeat(4,minmax(270px, auto));
+        grid-template-rows: repeat(2,minmax(270px, auto));
+        grid-auto-rows: minmax(270px, auto);
+        gap: 13px;
+        
+    }
+    &__item{
+        padding: 30px 30px 29px 25px;
+        border: 1px solid #000000;
+        &__descr{
+            margin-top: 15px;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        &__subtitle{
+            margin-top: 20px;
+        }
+        &-problem{
+            padding-top: 45px;
+        }
+        &-problem0{
+            padding-top: 38px;
+        }
+
+    }
+
+    &__progress{
+        display: grid;
+        grid-template-columns: repeat(3,minmax(350px, auto));
+        grid-template-rows: repeat(2,minmax(70px, auto));
+        grid-auto-rows: minmax(70px, auto);
+        column-gap: 45px;
+        row-gap: 30px;
+        margin-top: 120px;
+        &__items{
+            position: relative;
+            &__title{
+                position: relative;
+                padding-left: 12px;
+                @include before_circle;
+                &:before{
+                   
+                    top: -40%;
+                }
+            }
+            &__procent{
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            &__lineal{
+                margin-top: 27px;
+                width: 100%;
+                height: 14px;
+                background: #E8E4DE;
+                border-radius: 4px;
+                span {
+                    display: block;
+                    height: 100%;
+                    background-color: $main-color;
+                    border-radius: 4px;
+                }
+               /*  &-pr{
+                    width: 100%;
+                    height: 14px;
+                    background: $main-color;
+                    border-radius: 4px;
+                }
+                &_pr0{
+                    width: 85%;
+                    height: 14px;
+                    background: $main-color;
+                    border-radius: 4px;
+                }
+                &_pr1{
+                    width: 90%;
+                    height: 14px;
+                    background: $main-color;
+                    border-radius: 4px;
+                }
+                &_pr2{
+                    width: 75%;
+                    height: 14px;
+                    background: $main-color;
+                    border-radius: 4px;
+                }
+                &_pr3{
+                    width: 90%;
+                    height: 14px;
+                    background: $main-color;
+                    border-radius: 4px;
+                }
+                &_pr4{
+                    width: 95%;
+                    height: 14px;
+                    background: $main-color;
+                    border-radius: 4px;
+                } */
+            }
+        }
+    }
+
+}
+.sbp0{
+    margin-top: 33px;
+}
+.sbp1{
+    margin-top: 32px;
+}

@@ -1,0 +1,44 @@
+.prengi{
+    padding: 80px 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__item{
+        width: 360px;
+        min-height: 255px;
+        border: 1px solid #ececec;
+        background: url('../img/2-screen/_.png')  center (center/cover) no-repeat;
+        &_0{
+            background: url('../img/2-screen/correct.png') center (center/cover) no-repeat;
+        }
+    }
+    &__icons{
+        display: block;
+        margin: 0 auto;
+    }
+    &__descr{
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #393939;
+        width: 230px;
+        margin: 0 auto;
+        text-align: center;
+        &_0{
+            width: 275px;
+            font-weight: 700;
+            
+        }
+
+        
+    }
+    &__arrow{
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 33px;
+    }
+}

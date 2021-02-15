@@ -1,0 +1,448 @@
+@media (max-width: 1440px){
+    .header{
+        &__list{
+            ul{
+                li{
+                    margin-right: 21px;
+                    
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px){ //993
+    .header{
+        &__list{
+            ul{
+                li{
+                    margin-right: 6px;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+    .promo{
+        &__title{
+            font-size: 58px;
+        }
+        &__descr{
+            width: 240px;
+        }
+    }
+    .work{
+        padding-right: 10px;
+        padding-left: 10px;
+        &__wrapper{
+            grid-template-columns: repeat(2, auto);
+        }
+    }
+    .our{
+        &__wrapper{
+            grid-template-columns: repeat(2, 358px);
+            justify-content: space-around;
+            row-gap: 30px;
+        }
+    }
+    .agent, .company{
+        &__text{
+            width: 800px;
+        }
+    }
+    .price{
+        &__wrapper{
+            grid-template-columns: repeat(3,267px);
+            column-gap: unset;
+            justify-content: space-around;
+        }
+    }
+    .plan{
+        padding-bottom: 50px;
+        &__wrapper{
+            grid-template-columns: repeat(3,255px);
+            justify-content: space-around;
+        }
+    }
+
+}
+@media (max-width: 992px){ //769
+    .header{
+        flex-direction: column;
+        &__list{
+            ul{
+                padding-left: 0;
+                li{
+                    &::before{
+                        width: calc(100% - 6px);
+                    }
+                }
+            }
+        }
+        &__subtitle{
+            text-align: center;
+            font-size: 16px;
+        }
+        &__btn{
+            margin-top: 10px;
+        }
+    }
+    .promo{
+        &__big-divider{
+            width: 700px;
+        }
+        &__divider{
+            width: 325px;
+        }
+        &__items{
+            display: grid;
+            justify-content: space-around;
+            grid-template-columns: repeat(2, auto);
+        }
+        &__title{
+            font-size: 52px;
+        }
+    }
+    .work{
+        &__item{
+            column-gap: 7px;
+        }
+    }
+    .our{
+        &__subtitle{
+            width: 765px;
+        }
+    }
+    .agent, .company{
+        &__text{
+            width: 620px;
+        }
+    }
+    .price{
+        &__wrapper{
+            grid-template-columns: repeat(2,267px);
+            column-gap: unset;
+            justify-content: space-around;
+        }
+    }
+    .price{
+        &__input{
+            grid-template-columns: repeat(2,270px);
+        }
+        &__input{
+            input{
+                &:last-child{
+                    margin-top: 20px;
+                }
+            }
+        }
+        &__button{
+            top: 25px;
+        }
+    }
+    .plan{
+        &__wrapper{
+            grid-template-columns: repeat(3,242px);
+        }
+    }
+    .ask{
+        &__item{
+            width: 720px;
+        }
+        &__input{
+            input{
+                width: 190px;
+            }
+        }
+        &__textarea{
+            textarea{
+                width: 645px;
+            }
+        }
+    }
+}
+@media (max-width: 768px){ //577
+    .header{
+        flex-direction: unset;
+        &__list{
+            position: fixed;
+            
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100vh;  
+            background: rgba(0,0,0, .8);
+            transition: all 0.6s;
+            &_active{
+                left: 0;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                li{
+                    padding-right: 0;
+                    margin-right: 0;
+                    border:none;
+                    font-size: 24px;
+                    margin-left: 25px;
+                    margin-top: 25px;
+                    &::before{
+                        width: 100%;
+                        bottom: -10px;
+                    }
+                }
+            }
+        }
+
+        
+        
+    }
+    .hamburger{
+        position: absolute;
+        display: block;
+        right: 20px;
+        top: 30px;
+        transform: translateY(-50%);
+        width: 26px;
+        height: 15px;
+        span{
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: #fff;
+            margin-bottom: 3px;
+            transition: all 0.6s;
+        }
+        &_active{
+            
+            span{
+                margin-bottom: -2px;
+                &:nth-child(1){
+                    transform:  translateY(3px) rotate(-45deg);
+                }
+                &:nth-child(2){
+                    display: none;
+                }
+                &:nth-child(3){
+                    transform: translateY(3px) rotate(45deg);
+                }
+            }
+        }
+    }
+    .promo{
+        padding-left: 10px;
+        padding-right: 10px;
+        &__big-divider{
+            width: 515px;
+        }
+        &__divider{
+            width: 240px;
+        }
+        &__title{
+            font-size: 39px;
+        }
+        &__subtitle{
+            font-size: 38px;
+        }
+    }
+    .work{
+        &__wrapper{
+            grid-template-columns: 520px;
+        }
+        &__item{
+            column-gap: 15px;
+        }
+    }
+    .our{
+        &__subtitle{
+            width: 560px;
+        }
+        &__wrapper{
+            grid-template-columns: 358px;
+        }
+    }
+    .agent, .company{
+        &__text{
+            width: 505px;
+        }
+    }
+    .price{
+        &__subtitle{
+            width: 570px;
+        }
+        &__input{
+            input{
+                width: 235px;
+            }
+        }
+        &__button{
+            top: 25px;
+        }
+    }
+    .plan{
+        &__wrapper, &__wrapper-0{
+            grid-template-columns: 242px 242px;
+            row-gap: 25px;
+        }
+    }
+
+    .ask{
+        &__item{
+            width: 545px;
+        }
+        &__input{
+            column-gap: 15px;
+            input{
+                width: 140px;
+            }
+        }
+        &__textarea{
+            textarea{
+                width: 470px;
+            }
+        }
+    }
+    
+}
+@media (max-width: 576px){
+    .header{
+        flex-direction: column;
+        &__list{
+            ul{
+                li{
+                    font-size: 21px;
+                    margin-left: 0;
+                }
+            }
+        }
+        
+    }
+    .hamburger{
+        width: 30px;
+        height: 0;
+        span{
+            margin-bottom: 4px;
+            
+        }
+        &_active{
+            
+            span{
+                margin-bottom: -2px;
+                &:nth-child(1){
+                    transform:  translateY(4px) rotate(-45deg);
+                }
+                &:nth-child(3){
+                    transform: translateY(4px) rotate(45deg);
+                }
+            }
+        }
+    }
+    .promo{
+        &__divider{
+            width: 126px;
+        }
+        &__big-divider{
+            width: 295px;
+        }
+        &__items{
+            column-gap: 10px;
+        }
+        &__descr{
+            width: 145px;
+        }
+        &__header{
+            font-size: 21px;
+        }
+        &__title{
+            font-size: 34px;
+        }
+        &__subtitle{
+            font-size: 25px;
+        }
+    }
+    .work{
+        padding-bottom: 20px;
+        &__wrapper{
+            grid-template-columns: auto;
+        }
+        &__item{
+            column-gap: 15px
+        }
+    }
+    .our{
+        padding-left: 10px;
+        padding-right: 10px;
+        &__subtitle{
+            width: 300px;
+            font-size: 20px;
+        }
+        &__wrapper{
+            grid-template-columns: 320px;
+        }
+        &__img{
+            display: block;
+            width: 300px;
+            margin: 0 auto;
+        }
+        &__descr{
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        &__title{
+            font-size: 24px;
+        }
+    }
+    .agent, .company{
+        height: 290px;
+        &__text{
+            width: 300px;
+        }
+    }
+    .price{
+        &__subtitle{
+            width: 300px;
+        }
+        &__wrapper{
+            grid-template-columns: 267px;
+        }
+        &__input{
+            grid-template-columns: 270px;
+            input{
+                &:nth-child(2){
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    .plan{
+        &__wrapper, &__wrapper-0{
+            grid-template-columns: 242px;
+            row-gap: 25px;
+        }
+    }
+    .ask{
+        &__item{
+            width: 305px;
+            padding-bottom: 20px;
+        }
+        &__input{
+            display: grid;
+            grid-template-columns: 245px;
+            input{
+                width: 190px;
+            }
+        }
+        &__textarea{
+            textarea{
+                width: 228px;
+            }
+        }
+    }
+    .map{
+        &__info{
+            width: 270px;
+        }
+    }
+}

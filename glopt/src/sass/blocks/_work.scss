@@ -1,0 +1,43 @@
+.work{
+    min-height: 590px;
+    background-color: #f3f3f3;
+    padding-top: 53px;
+    &__title{
+        font-size: 26px;
+        line-height: 23px;
+        text-align: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #2e2e2e;
+    }
+    &__head{
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        color: #ec644b;
+    }
+    &__descr{
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #3a3a3a;
+    }
+    &__wrapper{
+        justify-content: space-between;
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 520px);
+        row-gap: 35px;
+        
+        grid-template-rows: repeat(4, auto);
+    }
+    &__icon{
+        height: 66px;
+    }
+    &__item{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 15px;
+    }
+}

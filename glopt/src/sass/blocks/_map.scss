@@ -1,0 +1,42 @@
+.map{
+    height: 500px;
+    position: relative;
+    &__info{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: 329px;
+        height: 158px;
+        background-color: #ffffff;
+        
+    }
+    &__descr{
+       margin: 27px 50px;
+    }
+    &__city{
+       
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ec644b;
+    }
+    &__far, &__phone, address{
+        
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        color: #3a3a3a;
+    }
+    &__phone{
+        text-decoration: none;
+        
+    }
+    &__email{
+        font-size: 14px;
+        color: #ec644b;
+        font-weight: 300;
+        text-decoration: underline;
+    }
+}

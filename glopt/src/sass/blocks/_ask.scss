@@ -1,0 +1,80 @@
+.ask{
+    padding: 62px 0 79px 0;
+    height: 438px;
+    background: url('../img/8-screen/bg1.jpg') center (center/cover) no-repeat;
+    &__item{
+        margin: 0 auto;
+        width: 896px;
+        min-height: 333px;
+        background: rgba( #fff, .7);
+    }
+    &__black{
+        width: 100%;
+        height: 68px;
+        background-color: #25333c;
+    }
+    &__title{
+        padding-top: 15px;
+        text-align: center;
+        font-size: 19px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__subtitle{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__input{
+        /* display: grid;
+        grid-template-columns: repeat(3,270px);
+        grid-template-rows: 43px 73px;
+        row-gap: 30px; */
+        display: flex;
+        justify-content: space-around;
+        margin-top: 17px;
+        row-gap: 6px;
+        column-gap: 25px;
+        justify-content: center;
+        input{
+            padding: 0 10px;
+            border-radius: 30px;
+            width: 250px;
+            height: 47px;
+            background-color: #ffffff;
+            border: 1px solid rgba(0,0,0,0.2);
+            font-size: 13px;
+            line-height: 24px;
+            font-weight: 300;
+            color: #101010;
+        }
+        
+    }
+    &__textarea{
+        margin-top: 10px;
+        display: flex;
+        margin-left: 15px;
+        justify-content: flex-start;
+        
+        textarea{
+            
+            padding: 19px 21px;
+            border-radius: 15px;
+            resize: none;
+            width: 822px;
+            background-color: #ffffff;
+            border: 1px solid rgba(0,0,0,0.2);
+        }
+    }
+    &__button{
+
+        display: block;
+        margin: 0 auto;
+        margin-top: 16px;
+        width: 180px;
+        height: 45px;
+    }
+}

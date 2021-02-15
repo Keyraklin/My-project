@@ -1,0 +1,35 @@
+@import 'base/btn';
+@import 'base/slick-theme';
+@import 'base/slick';
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+}
+.divider{
+    display: block;
+    width: 148px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    background-color: #ec644b;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/work';
+@import 'blocks/our';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/plan';
+@import 'blocks/slider';
+@import 'blocks/ask';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/media';
